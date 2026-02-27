@@ -1965,6 +1965,7 @@ GameObject:
   - component: {fileID: 639404726}
   - component: {fileID: 639404725}
   - component: {fileID: 639404724}
+  - component: {fileID: 639404728}
   m_Layer: 0
   m_Name: road
   m_TagString: Untagged
@@ -2070,6 +2071,38 @@ Transform:
   - {fileID: 818941709}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &639404728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639404723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshSurface
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 8be988c955247564f9c81f84d02b965d, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1001 &683305226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3248,6 +3281,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223080591}
   m_CullTransparentMesh: 1
+--- !u!1001 &1235082719
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1592355807001933260, guid: 4b7ade26857b6b647bf1e4ab56d5bb56, type: 3}
+      propertyPath: m_Name
+      value: Tempoarary NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752010290982541260, guid: 4b7ade26857b6b647bf1e4ab56d5bb56, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752010290982541260, guid: 4b7ade26857b6b647bf1e4ab56d5bb56, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752010290982541260, guid: 4b7ade26857b6b647bf1e4ab56d5bb56, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752010290982541260, guid: 4b7ade26857b6b647bf1e4ab56d5bb56, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752010290982541260, guid: 4b7ade26857b6b647bf1e4ab56d5bb56, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752010290982541260, guid: 4b7ade26857b6b647bf1e4ab56d5bb56, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752010290982541260, guid: 4b7ade26857b6b647bf1e4ab56d5bb56, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752010290982541260, guid: 4b7ade26857b6b647bf1e4ab56d5bb56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752010290982541260, guid: 4b7ade26857b6b647bf1e4ab56d5bb56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752010290982541260, guid: 4b7ade26857b6b647bf1e4ab56d5bb56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b7ade26857b6b647bf1e4ab56d5bb56, type: 3}
 --- !u!1001 &1235235532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5055,3 +5145,4 @@ SceneRoots:
   - {fileID: 694090333}
   - {fileID: 556919424}
   - {fileID: 1336915963}
+  - {fileID: 1235082719}
